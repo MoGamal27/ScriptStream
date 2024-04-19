@@ -1,48 +1,55 @@
-<title>ScriptStream|Registeration</title>
+<head>
+   <title>ScriptStream|registration</title>
+   <link rel="stylesheet" type="text/css" href="../css/style.css">
+   <link rel="icon"type="image/x-icon" href="header.jpg">
 </head>
 <body>
-   <form method="get">
-      <h2>Sign Up</h2>
-   <fieldset>
-       <legend>Personal Information</legend>
-       <div class="fname">
-         <label for="fname">First Name:</label>
-          <input type="text" placeholder="First Name" required id="fname" autofocus>
-       </div>
-       <div class="lname">
-         <label for="lname">Last Name:</label>
-          <input type="text" placeholder="Last Name" required id="lname">
-         </div>
-         <div class="email">
-            <label for="email">Email:</label>
-             <input type="Email" placeholder="Email" required id="email"> 
-            </div>
-            <div class="password">
-               <label for="password" >Password:</label>
-                <input type="password" placeholder="Password" type="hidden" type="range" minlength="10" maxlength="15"
-                 id="password" required>    
-            </div>
-            <div class="gender">
-             <label>Gender:</label>
-             <input type="radio" id="female" name="female">
-              <label for="female">Female</label>
-             <input type="radio" id="male" name="female"> 
-              <label for="male">Male</label>
-            </div>
-            <div class="birthdate">
-             <label>Select your birthdate:</label>
-              <input type="date">
-            </div>
-            <div class="registerSave">
-               <input type="submit" value="Save">
-            </div>
-            <div class="registerCheck"><input type="checkbox" id="Registeration">
-             <label for="Registeration"> Remember Me</label>
-            </div>
-          </fieldset>
-          <div class="already account"> 
-           <span>Already have an account?
-            <a href="LoginPage.html">Log in</a> 
-         </span>
+  <form method="get">
+     <h2>Sign Up</h2>
+  <fieldset>
+      <legend></legend>
+      <div class="fname">
+        <label for="fname">First Name</label>
+         <input type="text" placeholder="First Name" required id="fname" autofocus>
+      </div>
+      <div class="lname">
+        <label for="lname">Last Name</label>
+         <input type="text" placeholder="Last Name" required id="lname">
         </div>
-        </form>
+        <div class="number">
+           <label for="number">Number</label>
+            <input type="text" placeholder="Number" required id="number">
+           </div>
+        <div class="email">
+           <label for="email">Email</label>
+            <input type="Email" placeholder="Email" required id="email"> 
+           </div>
+           <div class="password">
+              <label for="password" >Password</label>
+               <input type="password" placeholder="Password" type="hidden" type="range" minlength="10" maxlength="15"
+                id="password" required>    
+           </div>
+           <div class="gender">
+            <label>Gender</label>
+            <input type="radio" id="female" name="female">
+             <label for="female">Female</label>
+            <input type="radio" id="male" name="female"> 
+             <label for="male">Male</label>
+           </div>
+           <div class="birthdate">
+            <label>Select your birthdate</label>
+             <input type="date">
+           </div>
+           <div class="registerSave">
+              <input type="submit" value="Save">
+           </div>
+           <div class="registerCheck"><input type="checkbox" id="registration">
+            <label for="registration"> Remember me</label>
+           </div>
+         </fieldset>
+         <div class="already account"> 
+          <span>Already have an account?
+           <a href="LoginPage.html">Log in</a> 
+        </span>
+       </div>
+       </form>

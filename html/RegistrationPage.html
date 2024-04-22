@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="../css//style.css">
+  <head>
+   <title>ScriptStream|Registeration</title>
+</head>
+<body>
+   <div class="header">
+		<h2>Sign Up</h2>
+	 </div>
+      <form  id="form" class="form" action="HomePage.html" >
+         <div class="form-control">
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" />
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>Error message</small>
+         </div>
+
+         <div class="form-control">
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" />
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>Error message</small>
+         </div>
+
+         <div class="form-control">
+          <label for="email">Email</label>
+           <input type="email"  id="email" />
+             <i class="fas fa-check-circle"></i>
+               <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+             </div>
+
+             <div class="form-control">
+               <label for="password">Password</label>
+               <input type="password" placeholder="Password" id="password"/>
+               <i class="fas fa-check-circle"></i>
+               <i class="fas fa-exclamation-circle"></i>
+               <small>Error message</small>
+            </div>    
+     
+        <label>Gender:</label>
+        <input type="radio" id="female" name="female">
+          <label for="female">Female</label>
+         <input type="radio" id="male" name="female"> 
+          <label for="male">Male</label>
+
+         <label>Select your birthdate:</label>
+          <input type="date">
+  
+           <button>Sign Up</button>
+         <div class="registerCheck"><input type="checkbox" id="Registeration">
+             <label for="Registeration"> Remember Me</label>
+           </div>
+         <hr>
+       <div class="already account"> 
+         <span>Already have an account?
+    <a href="LoginPage.html">Log in</a> 
+    </span>
+   </div>
+    </form>
+    <script src="../js/script.js"></script>
+</body>
+</html>

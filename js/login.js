@@ -1,5 +1,5 @@
 const loginPage = document.getElementById('loginPage');
-const Email = document.getElementById('Email');
+const email = document.getElementById('email');
 const pass = document.getElementById('pass');
 
 loginPage.addEventListener('LOGIN', event =>{
@@ -8,15 +8,15 @@ loginPage.addEventListener('LOGIN', event =>{
 });
 
 function isInputValid() {
-    const EmailValue = Email.value.trim();
+    const emailValue = email.value.trim();
 	const passValue = pass.value.trim();
 
-	if(EmailValue === '') {
-		setErrorFor(Email, 'Email can not be blank !');
-	} else if (!isEmail(EmailValue)) {
-		setErrorFor(Email, 'Not a valid email !');
+	if(emailValue === '') {
+		setErrorFor(email, 'Email can not be blank !');
+	} else if (!isEmail(emailValue)) {
+		setErrorFor(email, 'Not a valid email !');
 	} else {
-		setSuccessFor(Email);
+		setSuccessFor(email);
 	}
 
     if(passValue === '') {
@@ -39,7 +39,7 @@ function setSuccessFor(input) {
 	formControl.className = 'form-control success';
 }
 
-function isEmail(Email) {
-    return Email.includes('@') && Email.includes('.') && Email.indexOf('@') < Email.lastIndexOf('.');
-	//return /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/.test(Email);
+function isEmail(email) {
+    return email.includes('@') && email.includes('.') && email.indexOf('@') < email.lastIndexOf('.');
+	//return /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/.test(email);
 }

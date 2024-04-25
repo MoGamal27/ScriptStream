@@ -3,12 +3,15 @@ const firstname = document.getElementById('fname');
 const lastname = document.getElementById('lname');
 const email = document.getElementById('email');
 const password = document.getElementById('password');
+const signupButton = document.getElementById('signupButton');
 
-form.addEventListener('submit', e => {
+
+signupButton.addEventListener('click', e => {
 	e.preventDefault();
 	
 	checkInputs();
 });
+
 
 function checkInputs() {
     const firstnameValue = firstname.value.trim();
@@ -17,7 +20,7 @@ function checkInputs() {
 	const passwordValue = password.value.trim();
 	
 	if(firstnameValue === '') {
-		setErrorFor(firstname, 'Username cannot be blank');
+		setErrorFor(firstname, 'Firstname cannot be blank');
 	} else {
 		setSuccessFor(firstname);
 	}

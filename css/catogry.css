@@ -1,0 +1,58 @@
+body {
+    /* Just Edit The Path*/
+    background-image: url(../images/backgroundCategory.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   }
+  
+  .cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+    .card {
+      margin: 20px;
+      border: 1px solid transparent;
+      border-radius: 5px;
+      width: 250px;
+    }
+    
+    .card header {
+      padding: 10px;
+      text-align: center;
+      background-color: transparent;
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-style: italic;
+    }
+    
+    .card img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px 5px 0 0;
+    }
+    
+    .card .content {
+      padding: 1px;
+      background-color: transparent;
+    }
+    
+    .card p {
+      text-align: justify;
+      background-color: transparent;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+  
+    .cards:hover .card{
+      opacity: 0.3;
+      filter: blur(2px);
+    }
+  
+    .cards .card:hover{
+      opacity: 1;
+      filter: blur(0px);
+    }
+  
+  

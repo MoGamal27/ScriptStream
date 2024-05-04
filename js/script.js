@@ -10,6 +10,7 @@ signupButton.addEventListener('click', e => {
 	e.preventDefault();
 	
 	checkInputs();
+	window.location.href = "HomePage.html";
 });
 
 

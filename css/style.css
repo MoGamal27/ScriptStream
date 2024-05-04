@@ -24,7 +24,7 @@ nav img{
 .nav-links{
   flex: 1;
   text-align: center;
-  style:none;
+  font-style:none;
   padding: 4px 12px;
   position:relative;
 }
@@ -115,7 +115,8 @@ nav img{
   display: flex;
   justify-content: space-between;
 }
-/****courses***/
+
+/***courses***/
 .main-courses h2{
   margin: 10px;
   padding: 10px;
@@ -149,6 +150,78 @@ nav img{
   transition: 2s;
   cursor: pointer;
 }
+
+
+
+/****category***/
+.main-category h2{
+  margin: 10px;
+  padding: 10px;
+  font-size: 36px;
+  color: #ffffff;
+  font-weight: bold;
+  background-color: rgb(8, 57, 83);
+  border: 2px solid rgb(1, 6, 35);
+  text-shadow: 2px 2px 4px #000;
+  width: 100%;
+
+}
+.category-column{
+  flex-basis: 30%;
+  background: #b2c4eb;
+  border-radius: 20px;
+  margin-bottom: 5%;
+  margin-right: 10%;
+  padding: 65px ;
+  box-sizing: border-box;
+  text-decoration: none; 
+  color: #000000;
+}
+.category-column p{
+  color: #000000;
+  text-align: center;
+}
+.category-column p:hover{
+  border: 1px solid #071a55;
+  background: rgb(28, 96, 132);
+  transition: 2s;
+  cursor: pointer;
+}
+.main-category h2{
+  margin: 10px;
+  padding: 10px;
+  font-size: 36px;
+  color: #ffffff;
+  font-weight: bold;
+  background-color: rgb(8, 57, 83);
+  border: 2px solid rgb(1, 6, 35);
+  text-shadow: 2px 2px 4px #000;
+  width: 100%;
+
+}
+.category-column{
+  flex-basis: 30%;
+  background: #b2c4eb;
+  border-radius: 20px;
+  margin-bottom: 5%;
+  margin-right: 10%;
+  padding: 65px ;
+  box-sizing: border-box;
+  text-decoration: none; 
+  color: #000000;
+}
+.category-column p{
+  color: #000000;
+  text-align: center;
+}
+.category-column p:hover{
+  border: 1px solid #071a55;
+  background: rgb(28, 96, 132);
+  transition: 2s;
+  cursor: pointer;
+}
+
+
 /***instractor***/
 .instractor-column{
   flex-basis: 30%;

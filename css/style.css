@@ -244,30 +244,73 @@ nav img{
   transition: 2s;
   cursor: pointer;
 }
-/*footer*/
-.about{ 
-  text-align: center;
-  float: left;
-  padding: 20px;
-  width: 75%;
+
+
+/* Footer  */
+.footer-distributed {
+  background-color: rgb(8, 57, 83);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: normal 16px sans-serif;
+  padding: 45px 50px;
 }
-.contact-us{
-  width: 20%;
-  padding: 20px;
+
+.footer-distributed .footer-left p {
+  color: #8f9296;
+  font-size: 14px;
+  margin: 0;
+}
+
+
+
+.footer-distributed p.footer-links {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0 0 10px;
+  padding: 0;
+  transition: ease .25s;
+}
+
+.footer-distributed p.footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+  transition: ease .25s;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "·";
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+.footer-distributed .footer-right {
   float: right;
+  margin-top: 6px;
+  max-width: 180px;
 }
-.about h3{
+
+.footer-distributed .footer-right a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: rgb(37, 179, 167);
+  border-radius: 2px;
   font-size: 20px;
-  color: #333;
-}
-.about ul{
-  list-style-type: none;
-  color: #150354;
-}
-.about li{
-  margin-bottom: 10px;
-}
-.contact-us h3{
-  font-size: 20px;
-  color: #333;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-left: 3px;
+  transition:all .25s;
 }

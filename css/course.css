@@ -2,96 +2,81 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 *{
-    margin: 10;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    font-size:x-large;
 }
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    align-items:center;
+    text-align: center;
+    overflow-x: hidden;
     min-height: 100vh;
     background-image: url('../images/photo_2024-05-03_11-24-04.jpg');
     background-repeat: repeat-x;
     background-size: cover;
     background-position: center;
-    background-size: cover;
 }  
-.content .row{
-    position: center;
-    justify-content: center;
-    margin-left: 600px;
-    margin-right:600px;
-    margin-bottom:100px;
+.content img{
+    display: flex;
+    width: 500px;
+    height: auto;
+    margin: 50px auto;
+    border-radius: 5%;
 }
 
 .content h2 {
-    position: center;
-    align-items: center;
-    margin-left: 1230px;
-    margin-right:1230px;
-    font-size: 60px;
-    background-image: linear-gradient(to top,black,darkblue);
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-    display: flex;
-    align-items:center;
+    margin: 50px auto;
+    font-size: 48px;
+    color: rgb(0, 0, 39);
     cursor: pointer;
-
+    white-space: nowrap
 }
 
-.content .clo {
-  
-    font-size: 45px;
+.clo {
+    font-size:24px;
     box-sizing: border-box;
-    width: 1940px;
-    height: 240px;
     background: rgba(209, 237, 247, 0.647);
+    margin: 50px auto;
+    max-width: 750px;
+    height: auto;
     border-radius: 30px;
-    position: center;
-    align-items: center;
-    margin-left: 600px;
+}
+
+.clo li{
+  margin-bottom: 10px;
+  text-align: left;
+  line-height: 1.5;
 }
 
 .content h3{
-    position: center;
-    align-items: center;
-    margin-left: 1350px;
-    margin-right:1230px;
-    font-size: 60px;
-    background-image: linear-gradient(to top,black,darkblue);
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-    display: flex;
-    align-items: center;
+    margin: 50px auto;
+    font-size: 48px;
+    color: rgb(0, 0, 39);
     cursor: pointer;
 }
 
 table, th, td {
     border: 15px solid white;
-    border-collapse: collapse;
-    margin-left: 560px;
-    width: 1960px;
+    margin: 50px auto;
+    width: 1300;
+    border-radius: 20px;
   }
+
   th, td {
     background-color:rgba(209, 237, 247, 0.647);
     padding: 10px;
-    margin-left: 80px;
+    margin: auto;
     text-align:center
-
   }
-  tr:hover 
-  {background-color: #29b3b3;
-}
+
+  tr:hover {
+    background-color: #29b3b3;
+    transition: 1s;
+  }
 
   tr{
-    font-size: 40px;
+    font-size: 24px;
   }
 
 

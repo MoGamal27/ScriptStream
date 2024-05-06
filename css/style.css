@@ -152,69 +152,79 @@ nav img{
   width: 100%;
 
 }
-/* Footer  */
+
+
+/* Footer*/
+
 .footer-distributed {
   background-color: rgb(8, 57, 83);
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
-  box-sizing: border-box;
-  width: 100%;
-  text-align: left;
-  font: normal 16px sans-serif;
-  padding: 45px 50px;
+  color: #ffffff;
+  padding: 40px 0;
+  font-family: Arial, sans-serif;
 }
 
-.footer-distributed .footer-left p {
-  color: #8f9296;
+/* Footer Left Section */
+.footer-left {
+  width: 45%;
+  float: left;
+  padding: 0 20px;
+}
+
+.footer-left h3 {
+  color: #ffffff;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.footer-left p {
+  color: #ffffff;
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.footer-left .footer-links a {
+  color: #ffffff;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.footer-left .footer-links a:hover {
+  text-decoration: underline;
+}
+
+/* Footer Right Section */
+.footer-right {
+  width: 45%;
+  float: right;
+  padding: 0 20px;
+}
+
+.footer-right .container {
+  text-align: right;
+}
+
+.footer-right .container span {
+  margin-right: 20px;
+}
+
+.footer-right .container span a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-right .container span a:hover {
+  color: #aaaaaa;
+}
+
+/* Footer Text Section */
+.footer-text {
+  clear: both;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.footer-text p {
+  color: #ffffff;
   font-size: 14px;
   margin: 0;
-}
-
-.footer-distributed p.footer-links {
-  font-size: 18px;
-  font-weight: bold;
-  color: #ffffff;
-  margin: 0 0 10px;
-  padding: 0;
-  transition: ease .25s;
-}
-
-.footer-distributed p.footer-links a {
-  display: inline-block;
-  line-height: 1.8;
-  text-decoration: none;
-  color: inherit;
-  transition: ease .25s;
-}
-
-.footer-distributed .footer-links a:before {
-  content: "·";
-  font-size: 20px;
-  left: 0;
-  color: #fff;
-  display: inline-block;
-  padding-right: 5px;
-}
-
-.footer-distributed .footer-links .link-1:before {
-  content: none;
-}
-
-.footer-distributed .footer-right {
-  float: right;
-  margin-top: 6px;
-  max-width: 180px;
-}
-
-.footer-distributed .footer-right a {
-  display: inline-block;
-  width: 35px;
-  height: 35px;
-  background-color: rgb(37, 179, 167);
-  border-radius: 2px;
-  font-size: 20px;
-  color: #ffffff;
-  text-align: center;
-  line-height: 35px;
-  margin-left: 3px;
-  transition:all .25s;
 }

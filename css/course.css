@@ -77,5 +77,31 @@ table, th, td {
   }
 
 
+  .button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #007bff;
+}
+
+.content p {
+  font-size: 24px; 
+  color: white; 
+  margin-top: 30px; 
+  line-height: 1.5;
+  font-weight: bold; 
+}
+
   
 

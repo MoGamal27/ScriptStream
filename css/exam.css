@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("../images/HQuiz.jpg");
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-position: center;
+} 
+.wrapper{
+    background:transparent;
+    color: #000000;
+    border-radius: 10px;
+    padding-bottom: 1%;
+    
+} 
+
+ h2 {
+   
+    font-size: 50px;
+    text-align:center;
+    font-style: italic;
+}
+
+.info{
+    font-size: larger;
+    text-align: left;
+    outline: medium ridge rgba(195, 194, 194, 0.549) ;
+    outline-style: outset;
+    outline-width: 2px;
+    padding: 20px 150px 20px 20px;
+    margin: 65px 265px;
+}
+
+.limit{
+    font-size: larger;
+    text-align: center;
+    padding-left: 50px;
+    outline: medium ridge rgba(195, 194, 194, 0.549) ;
+    outline-style: outset;
+    outline-width: 2px;
+    padding: 10px 150px;
+    margin: 30px 265px;
+}
+
+.AttemptsButton .btn{
+    width: 40%;
+    height:auto;
+    padding: 20px 5px ;
+    margin: 30px 335px;
+    position:static;
+    text-align: center;
+    background: #c5c5ffb0;
+    border-radius: 5px;
+    border-color: transparent;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 20px;
+    color: #000000;
+
+}
+.Check{
+    text-align: right;  
+    outline: medium ridge rgba(195, 194, 194, 0.549) ;
+    outline-style: outset;
+    outline-width: 3px;
+    padding: 10px 20px;
+    margin: 10px 300px 10px 650px;
+}
+.backCourse{
+    text-align: center;  
+    outline: medium ridge rgba(195, 194, 194, 0.549) ;
+    outline-style: outset;
+    outline-width: 3px;
+    padding: 10px 20px;
+    margin: -46.5px 700px -40px 250px;
+}
+
